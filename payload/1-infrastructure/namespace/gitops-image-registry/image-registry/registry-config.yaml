@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  namespace: cloud-native-toolkit
+  url: https://quay.io/cloud-native-toolkit
+kind: ConfigMap
+metadata:
+  annotations:
+    console-link.cloud-native-toolkit.dev/displayName: Image Registry
+    console-link.cloud-native-toolkit.dev/imageUrl: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwMCIgaGVpZ2h0PSIyMzA1IiB2aWV3Qm94PSIwIDAgMjU2IDIzNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTIwMC4xMzQgMGw1NS41NTUgMTE3LjUxNC01NS41NTUgMTE3LjUxOGgtNDcuMjk1bDU1LjU1NS0xMTcuNTE4TDE1Mi44NCAwaDQ3LjI5NXpNMTEwLjA4IDk5LjgzNmwyMC4wNTYtMzguMDkyLTIuMjktOC44NjhMMTAyLjg0NyAwSDU1LjU1Mmw0OC42NDcgMTAyLjg5OCA1Ljg4MS0zLjA2MnptMTcuNzY2IDc0LjQzM2wtMTcuMzMzLTM5LjAzNC02LjMxNC0zLjEwMS00OC42NDcgMTAyLjg5OGg0Ny4yOTVsMjUtNTIuODh2LTcuODgzeiIgZmlsbD0iIzQwQjRFNSIvPjxwYXRoIGQ9Ik0xNTIuODQyIDIzNS4wMzJMOTcuMjg3IDExNy41MTQgMTUyLjg0MiAwaDQ3LjI5NWwtNTUuNTU1IDExNy41MTQgNTUuNTU1IDExNy41MThoLTQ3LjI5NXptLTk3LjI4NyAwTDAgMTE3LjUxNCA1NS41NTUgMGg0Ny4yOTZMNDcuMjk1IDExNy41MTRsNTUuNTU2IDExNy41MThINTUuNTU1eiIgZmlsbD0iIzAwMzc2NCIvPjwvc3ZnPgo=
+  creationTimestamp: null
+  labels:
+    console-link.cloud-native-toolkit.dev/enabled: "true"
+    group: cloud-native-toolkit
+    grouping: garage-cloud-native-toolkit
+  name: registry-config
